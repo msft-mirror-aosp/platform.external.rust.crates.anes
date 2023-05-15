@@ -57,7 +57,7 @@ rust_test {
         "parser",
     ],
     rustlibs: [
-        "libbitflags-1.3.2",
+        "libbitflags",
         "libcriterion",
         "liblibc",
     ],
@@ -82,7 +82,7 @@ rust_test {
     ],
     rustlibs: [
         "libanes",
-        "libbitflags-1.3.2",
+        "libbitflags",
         "libcriterion",
         "liblibc",
     ],
@@ -101,7 +101,7 @@ rust_library {
         "parser",
     ],
     rustlibs: [
-        "libbitflags-1.3.2",
+        "libbitflags",
     ],
     apex_available: [
         "//apex_available:platform",
