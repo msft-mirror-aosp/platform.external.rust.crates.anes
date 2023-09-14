@@ -2,5 +2,8 @@
   "device": true,
   "run": true,
   "features": "parser",
-  "tests": true
+  "tests": true,
+  "dep-suffixes": {
+    "bitflags": "-1.3.2"
+  }
 }
